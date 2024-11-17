@@ -785,6 +785,28 @@ Once we are satisfied with what we have we can transfer this over and we can exp
 ![Screenshot 2024-11-17 195733](https://github.com/user-attachments/assets/a69f1c74-1ddb-4a6f-8b98-445ac7120b14)
 
 
+**Chapter 2 overviews the Verilog Hardware Description Language and provides coding style guidelines for writing synthesizable register transfer level (RTL) code.**
+
+**Part 2a presents the motivation for Hardware Description languages and introduces Verilog.**
+
+![Screenshot 2024-11-17 210805](https://github.com/user-attachments/assets/161c8574-3b24-4984-9a09-a71b2ba8eb67)
+
+In hardware description language, we are not describimg the flow of data. Here we have sensitivity of lists which are list of signals, certain constructs we have. Everytime something happend/changed in struck which is known as Events. 
+
+![Screenshot 2024-11-17 211615](https://github.com/user-attachments/assets/c8b750d6-4fcd-4ab6-8239-9497a486d094)
+
+Here, Gate Level means that list of gates and connectivity between them. Netlist is not readable and low level and basically what types of Nets between them. 
+
+RTL is synthesizeable verilog (to write verilog where actually describes hardware that can be turned into Gate level netlist)
+
+DUT means that RTL/Structural code is used here. 
+
+Behavioral (Test bench) means higher abstract level, here we write all kinds of for loops. 
+
+**Part 2b introduces the basics of Verilog syntax.**
+
+![Screenshot 2024-11-17 212844](https://github.com/user-attachments/assets/a74f4f3d-e7fa-44f9-a464-7153c59c1cce)
+
 
 
 
