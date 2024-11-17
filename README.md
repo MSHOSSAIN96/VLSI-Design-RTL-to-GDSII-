@@ -428,6 +428,105 @@ These masks define the patterns that will be etched onto the silicon wafer to cr
 This detailed physical design and fabrication process is beyond the scope of this course but is essential for manufacturing integrated circuits.
 
 
+**Part 1c goes over the concept of design automation and how it enables us to build complex ICs**
+
+
+![Screenshot 2024-11-17 151857](https://github.com/user-attachments/assets/37868fbc-4e42-4f97-a9e8-86ee2d9cb1de)
+
+**Design Automation Tools**
+
+Design automation today involves a wide array of tools for different stages of chip design. Here are the key categories:
+
+**1.High-Level Synthesis & Logic Synthesis Tools:**
+
+Used for RTL and system-level design to convert high-level specifications into logic representations.
+
+**2.Schematic Capture Tools:**
+
+Help in designing transistor-level circuits and creating the schematic diagrams for individual components.
+
+**3.Layout Tools:**
+
+Focus on creating the physical layout of transistors and their interconnections on the chip.
+
+**4.PCB Design Tools:**
+
+Used for designing Printed Circuit Boards (PCBs), including the placement of components and routing of connections.
+
+**5.Simulation Tools:**
+
+Run simulations at various levels, such as:
+
+Transistor simulations using compact models.
+
+Logic simulations using Boolean representations of logic gates.
+
+Hardware Emulation to emulate chip functionality before actual fabrication.
+
+**6.Verification & Analysis Tools:**
+
+Ensures the design functions as intended and meets specifications:
+
+Functional Verification checks if the digital design works as expected.
+
+Formal Verification uses mathematical analysis to ensure correctness.
+
+Equivalence Checking compares RTL and gate-level designs.
+
+Static Timing Analysis checks timing constraints.
+
+Physical Verification includes checks like DRC (Design Rule Check) and LVS (Layout vs. Schematic).
+
+Clock Domain Crossing Checks ensure synchronization between asynchronous clocks.
+
+**7.Post-Silicon Validation:**
+
+ATPG (Automatic Test Pattern Generation) and BIST (Built-in Self-Test) help in testing the chip after fabrication to ensure it is functioning properly.
+
+**8.Mass Production Tools:**
+
+Optical Proximity Correction (OPC) and similar tools are used to prepare photomasks for manufacturing.
+These tools help automate and streamline the complex tasks involved in chip design and ensure the delivery of functional, reliable chips.
+
+
+![Screenshot 2024-11-17 152150](https://github.com/user-attachments/assets/b3f1cad4-2c66-43da-9eab-da56e8c95ecd)
+
+**Cadence Design Flow**
+
+The Cadence Design Flow, supported through the Cadence Academic Network, enables a comprehensive approach to chip design. The tools and steps in this flow are integrated to support the entire process, from RTL design to final verification and optimization.
+
+**1.RTL Design in Verilog:**
+
+Verilog is the primary language used for designing at the Register Transfer Level (RTL). This is the standard in the industry, and it allows for a high-level description of the digital logic in a chip.
+
+VHDL is another option, but Verilog is favored in most high-tech industries.
+
+**2.Synthesis with Cadence Genus:**
+
+Cadence Genus is used for logic synthesis, converting the high-level RTL code into a gate-level representation that is suitable for physical design and fabrication.
+
+**3.Place and Route with Cadence Innovus:**
+
+Cadence Innovus handles the physical design phase, including placement and routing of the logic gates on the chip. This step defines the physical layout and interconnections of the gates, ensuring they fit into the specified design area and adhere to timing and other constraints.
+
+**4.Integrated Tools in Cadence Innovus:**
+
+a.Timing Analysis (Tempest): Analyzes the timing of signals within the design to ensure all timing constraints are met.
+
+b.Voltage and Power Estimation: This tool assesses power consumption to ensure the design does not exceed power limits.
+
+c.Parasitic Extraction (QRC): Extracts parasitic elements (such as resistance and capacitance) that can affect the signal integrity and performance.
+
+d.Clactory Synthesis (CC Opt): Optimizes the design for area, power, and timing.
+
+**5.Simulation with Cadence Incisive:**
+
+Cadence Incisive is used for simulation and verification. This tool allows for functional verification of the RTL design by running various testbenches to ensure the chip will behave as expected under real-world conditions.
+
+Simulation is crucial for validating design before moving to physical fabrication, helping detect logical errors early in the design cycle.
+
+This flow is a comprehensive process that integrates multiple tools for different stages of chip design, making it easier to optimize and verify the design for performance, power, and area. The Cadence Academic Network provides the tools and resources necessary for running this workflow efficiently in an academic environment, equipping students with industry-standard tools for chip design.
+
 
 
 
