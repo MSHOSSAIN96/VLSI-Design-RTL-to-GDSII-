@@ -763,6 +763,27 @@ The front-end design, including the spec, architecture, RTL, and verification re
 The back-end flow is intricate and involves numerous steps to translate the RTL into a physical layout ready for fabrication.
 
 
+![Screenshot 2024-11-17 194618](https://github.com/user-attachments/assets/c6164a1b-d82a-44db-84b9-737ea6b477fc)
+
+Here, so we start with again RTL which is the Register Transfer Level code that we wrote Verilog (VHDL), etc. Then we start with SDC which is a constraints file and then we start with our IPs provided by the IP vendors such as the standard cells and different macros. 
+
+We take those 3 things (RTL, SDC, and Standard cells and Macros) and we provide them to the synthesis tool named Synthesizer which provides a gate level of how everything is mapped to this technology and how it’s connected. And then we lose all our behavioral models we don’t exactly understand, we can’t read the code anymore we can just see a bunch of gates that are connected.  
+
+At the next stage, we will have some sort of definitions for our design for test and put our gate level inside an automatic test pattern generation (ATPG) tool and we will get the ability to test this. 
+
+Then we can take our floor plan which is how we decided our chip would look and what different parts we have in our chip maybe we take Big blocks and place them and we take different things like the power grid and special routes that we have to do previous to doing the rest of the work and we put our whole sea of gates into the placement algorithm which puts every single one of these millions of gates down into some sort of 
+a place inside our floor plan and we come out of this with a place designed so we have actual coordinates for every single one of these cells that we had in our gate level netlist.  
+
+Now we provide some clock definitions since we know in our place design exactly where each flip-flop and every clocked element is we can now provide a clock to it, and we use a clock tree synthesis tool that designs the clock tree and provides a low skew net to each of these clocks again this.  
+
+Once we have our design with our clock tree, we can take our router which goes and connects every one of the pins of the different cells and different IPS without doing anything that it’s not supposed to according to the design rules. Then we have a fully routed or fully laid out design.  
+
+Then we must take this and do all the different types of checks such as running static timing analysis DRC and LVS checking, Density checking, Antennas inserting decaps checking power and electromigration and running extractions, and so forth. 
+
+Once we are satisfied with what we have we can transfer this over and we can export that as what’s known as a GDS to file which is just a format for describing the layout which we usually send to the fabrication plant for making the photo masks.   
+
+![Screenshot 2024-11-17 195733](https://github.com/user-attachments/assets/a69f1c74-1ddb-4a6f-8b98-445ac7120b14)
+
 
 
 
