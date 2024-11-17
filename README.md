@@ -1,7 +1,7 @@
 # Design to VLSI(RTL to GDS II)
 Here, I  cover the basics of Chip Implementation, from designing the logic (RTL) to providing a layout ready for fabrication (GDS).
 
-**Chapter 1 : The motivation for the Digital VLSI design (RTL to GDS) & an introduction to the chip design process. **
+**Chapter 1 : The motivation for the Digital VLSI design (RTL to GDS) & an introduction to the chip design process.**
 
 **Part 1a :  Motivation & an introduction to the course:**
 
