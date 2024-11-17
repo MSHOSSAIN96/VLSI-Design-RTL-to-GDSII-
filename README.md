@@ -50,6 +50,65 @@ This processor's features illustrate the exponential growth of computing power e
 
 This is a kind of above graph where you can see that we have plotted two things. On the  bottom, we have the year where we have one scale on the right is productivity which is  how many transistors or theoretical transistors each staff and engineer can deal with,  and you see that has grown exponentially because this is a logarithmic graph but, on the  left, here, we have the logical transistors per chip according to Moore’s law which has grown on an exponent. The only thing is that you see that the scale of growth on the logic transistor per chip is much larger than the productivity of how much a person can deal with even with the different tools that we use to help us grow this exponentially and this has caused a gap to come along. One of the things that how we can go and close this Gap or what we can do without all these transistors that we’re putting on a chip.  
 
+The gap between IC capacity and productivity is a serious problem for the semiconductor industry. It is making it more difficult and expensive to develop new chips, which could slow down the pace of innovation in the electronics industry.
+
+1. Design Abstraction
+
+Concept: Divide the design into modular, manageable layers or components.
+
+How It Works:
+
+a.Each engineer or team specializes in one part of the design.
+
+b.Inputs and outputs are standardized, allowing seamless interaction between modules.
+
+c.Engineers focus on optimizing their specific area while integrating with the larger system.
+
+Benefits:
+
+a.Simplifies the overall design process.
+
+b.Enhances focus and productivity for individual teams.
+
+c.Enables better collaboration and scalability.
+
+2. Design Automation (EDA - Electronic Design Automation)
+
+Concept: Use software tools to automate parts of the design process, handling large numbers of transistors and complex functionalities efficiently.
+
+How it Works:
+
+a.EDA tools assist in tasks such as schematic creation, logic synthesis, placement, routing, and verification.
+
+b.Algorithms and simulations reduce the need for manual intervention in repetitive or complex tasks.
+
+Benefits:
+
+a.Increases speed and accuracy of design iterations.
+
+b.Reduces human error.
+
+c.Handles the exponential growth in transistor density effectively.
+
+3. Design Reuse (IP - Intellectual Property)
+
+Concept: Leverage pre-designed and validated components (Intellectual Property blocks) to save time and effort.
+
+How It Works:
+a.Teams or companies reuse blocks they previously designed or purchase IP blocks from external vendors.
+
+Examples include standard cores (e.g., ARM processors), memory modules, or communication interfaces.
+
+Benefits:
+
+a.Avoids reinventing the wheel for commonly used components.
+
+b.Saves development time and cost.
+
+c.Ensures reliability, as pre-tested IP reduces the risk of design flaws.
+
+By combining abstraction, automation, and reuse, engineers can tackle the immense complexity of modern chip designs efficiently, enabling the creation of increasingly sophisticated integrated circuits.
+
 
 
 
