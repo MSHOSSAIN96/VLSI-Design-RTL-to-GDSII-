@@ -826,6 +826,17 @@ Behavioral (Test bench) means higher abstract level, here we write all kinds of 
 ![Screenshot 2024-11-17 221119](https://github.com/user-attachments/assets/58e3a986-f380-4875-b928-163e009c0947)
 
 
+**Part 2c gives some very simple "hello world" style examples of Verilog coding.**
+
+![Screenshot 2024-11-17 222206](https://github.com/user-attachments/assets/4b7cb3c0-00e5-4763-86d8-134956a303b8)
+
+![Screenshot 2024-11-17 221920](https://github.com/user-attachments/assets/3ecaf08f-4f0e-4e12-92f9-76ceee411ee6)
+
+![Screenshot 2024-11-17 221620](https://github.com/user-attachments/assets/4e1820ff-3363-4c4a-a11a-5e976840a872)
+
+
+
+
 
 
 
