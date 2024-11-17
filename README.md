@@ -527,6 +527,204 @@ Simulation is crucial for validating design before moving to physical fabricatio
 
 This flow is a comprehensive process that integrates multiple tools for different stages of chip design, making it easier to optimize and verify the design for performance, power, and area. The Cadence Academic Network provides the tools and resources necessary for running this workflow efficiently in an academic environment, equipping students with industry-standard tools for chip design.
 
+**Part 1d gives a quick run through of the chip design flow as a framework for the rest of the work**
+
+![Screenshot 2024-11-17 154300](https://github.com/user-attachments/assets/dc8a2548-9633-405d-a4f3-ee7d81cfb8e3)
+
+Don't forget package and board design, software design, test plan and etc
+
+**Chip Design Flow**
+
+The chip design process is divided into several key stages, each focused on a different aspect of the design and fabrication process:
+
+1.Definition and Planning:
+
+The first step involves defining the goals of the chip, understanding the requirements, and planning the overall design. This stage sets the foundation for all subsequent steps.
+
+2.Front-End Design:
+
+This phase focuses on the actual design and verification of the chip's functionality. It includes high-level architectural design, RTL (Register Transfer Level) coding, and simulation to ensure the chip's design works as intended.
+
+3.Back-End Design:
+
+The back-end design begins after the functional design is completed. This includes logic synthesis (converting RTL to gate-level design), followed by the physical design phase, which involves placement, routing, and ensuring the chip meets performance, power, and area requirements.
+
+4.Sign-Off:
+
+After completing the back-end design, a sign-off process is conducted to verify that all design rules, timing, power, and other constraints are satisfied before the design is sent to the foundry for fabrication.
+
+5.Tape-Out:
+
+This is the final step in the design process, where the completed chip design is sent to the semiconductor fabrication facility (the foundry) for actual manufacturing.
+
+6.Silicon Validation:
+
+Once the fabricated chip is received, it is tested in the lab for silicon validation. This phase ensures that the chip behaves as expected under real-world conditions.
+
+7.Other Aspects:
+
+Additional steps, such as package and board design, software design, and creating a test plan, are also critical to the overall process, though they may not be the focus of this course. These aspects ensure the chip integrates successfully into a product and functions in its intended environment.
+
+This flow provides a high-level view of the chip design process, which is highly iterative and involves many specialized tools and stages to ensure the chip meets both functional and physical requirements.
+
+![Screenshot 2024-11-17 154930](https://github.com/user-attachments/assets/72e68038-70c6-4456-815e-867c97f3e1bb)
+
+
+**Definition and Planning Stage**
+
+1.Marketing Requirements Document:
+
+This document outlines what the chip needs to achieve, its target audience, and the key features for selling the product. It defines the broad goals based on client needs and market demands.
+
+2.Chip Architecture Team:
+
+The architecture team takes the marketing document and defines the chip's core design aspects:
+
+Bus architecture, connectivity, and partitioning.
+
+High-level system model creation.
+
+Decisions on power, frequency, bandwidth, and hardware/software division.
+
+
+Choices for cores, memories, and other chip specifications.
+
+**3.Design Team:**
+
+The architecture team passes on the architectural guidelines to the design team:
+
+Break down the design into smaller blocks.
+
+Develop specific documents for each block, discussing design details.
+
+Create state machines, waveforms, and define interfaces for each block.
+
+**4.Board Requirements and Floor Plan:**
+
+Discussions about the physical layout of the chip, including its size, floor plan, and the necessary connections.
+
+**5.Process and Fabrication (Fab) Selection:**
+
+Selecting the process and fab type (e.g., different node technologies, price points, and features) which greatly influence the chip's performance, power consumption, and other characteristics.
+
+**6.Project Kickoff:**
+
+Once all decisions and documents are in place, the project moves to the implementation phase. All designs are transferred to the implementation teams for actual development.
+
+This stage ensures that the chip's high-level specifications, architecture, and requirements are well-defined and aligned with both technical and business goals before moving forward into the design and verification phases.
+
+![Screenshot 2024-11-17 155720](https://github.com/user-attachments/assets/0c6780c4-0c0f-47f9-bf01-fc36988b8b89)
+
+**RTL Design and Verification**
+
+1.RTL Design (Register Transfer Level):
+
+The design is described using Verilog or VHDL, which are hardware description languages.
+
+This stage involves creating the behavioral model of the chip at a high level of abstraction.
+
+2.Integration of IPs (Intellectual Property):
+
+IP blocks can either be:
+
+Off-the-shelf (purchased or licensed).
+
+Internal (developed by a different team within the company).
+
+These blocks are integrated into the overall chip design.
+
+3.Design Checks:
+
+Linters and synthesizability checks are used to ensure that the RTL code is syntactically correct and can be synthesized into logic gates.
+
+Formal verification is applied to check if the design meets the specifications based on a mathematical model, ensuring correctness at the block level.
+
+Functional verification tests the functionality of each IP and the entire system. This is done at multiple levels:
+
+Unit-level: Testing individual blocks.
+
+Subsystem-level: Testing groups of related blocks.
+
+Full-chip level: Testing the entire chip's behavior.
+
+4.Verification Coverage:
+
+Efforts are made to achieve maximum coverage during the verification process to ensure all design scenarios are validated.
+
+
+![Screenshot 2024-11-17 160404](https://github.com/user-attachments/assets/3942a00d-ea5e-489a-8c26-5a901d8c5535)
+
+**Hard IP Integration**
+
+Hard IP Design:
+
+Hard IPs are designed specifically for a single process and its flavor, meaning they are optimized for one particular fabrication process and are not easily migratable to other processes.
+
+Integration into Design:
+
+Hard IPs are treated as black boxes that are inserted into the chip's floor plan without modification, making it easier to integrate.
+Verification:
+
+Since Hard IPs are usually pre-verified and debugged by the IP provider, the designer can rely on these blocks being functional and well-tested, saving time and effort.
+
+![Screenshot 2024-11-17 160933](https://github.com/user-attachments/assets/8eabecec-a62b-4b77-97a3-d70142573008)
+
+**Prototyping and Hardware Emulation**
+
+1.Levels of Verification:
+
+Verification can be specification-driven, bug-driven, coverage-driven, or regression-driven.
+
+2.FPGA Prototyping:
+
+FPGAs allow designers to synthesize the design onto hardware, enabling hardware-speed verification. This provides better coverage than software simulations, but FPGAs do not match the exact gate-level implementation of the final chip.
+
+3.Hardware Emulation:
+
+Hardware emulation involves mapping the actual gate-level design to high-performance emulation platforms like Cadence Palladium. This enables testing at real gate-level speeds and provides more accurate results compared to FPGA prototyping, making it a crucial verification tool.
+
+![Screenshot 2024-11-17 161504](https://github.com/user-attachments/assets/28b4e901-d69b-479e-9500-8363e6a390d5)
+
+
+![Screenshot 2024-11-17 161751](https://github.com/user-attachments/assets/6653c303-d56c-4ac0-98e8-bfaa3c8b4842)
+
+
+**Physical Implementation (Back-End Design)**
+
+1.Chip Overview:
+
+I/O Ring: Interfaces between the chip's internal core and the external world using large buffers to handle higher capacitance and inductance at the chip's periphery.
+
+Landing Pads: Provide connections to the external world for wire bonding.
+
+2.Power Distribution:
+
+VDD and Ground Rails: Provide power across the chip, with rows of standard cells placed in between for efficient power distribution.
+
+3.Clock Distribution:
+
+Clock Tree Synthesis: Ensures that the clock signal is routed to all flip-flops and relevant IPs within the chip.
+
+4.Routing and Connections:
+
+Routing of connections between logic gates and IP blocks is critical, ensuring no shorts and adherence to design rules.
+
+5.Verification:
+
+Design Rule Checks (DRC), Layout Versus Schematic (LVS), Antenna Checks, Electromigration Checks: Ensure correctness and reliability of the layout.
+
+Logic Equivalence Checking: Confirms that the final layout matches the intended design.
+
+Post-Layout Simulations: Verify the design's behavior with actual delays and other physical parameters.
+
+6.Goal:
+
+Efficiently place and route the design while ensuring proper functioning and compliance with design rules.
+
+![Screenshot 2024-11-17 162517](https://github.com/user-attachments/assets/aee9cc90-948a-45cb-bc40-53e1658a6beb)
+
+
+
 
 
 
