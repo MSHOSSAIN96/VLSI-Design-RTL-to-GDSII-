@@ -875,7 +875,26 @@ When we hit the reset button, we go back to our idle state. Then if we stay with
 ![Screenshot 2024-11-21 120328](https://github.com/user-attachments/assets/93b23add-08da-41bd-886d-ed7ceac34488)
 
 
-Here, in the instantiation stage, we connects all our signals that we just declared here to our signals to our parts of the module. 
+Here, in the instantiation stage, we connects all our signals that we just declared here to our signals to our parts of the module.
+
+
+**Part 2e emphasizes some of the important points for coding in Verilog in order to write synthesizable, maintainable code.**
+
+
+![Screenshot 2024-11-21 123201](https://github.com/user-attachments/assets/e5b772dc-3e94-4021-be5a-b90593e6d07a)
+
+Here,we need to write each input/output on a seperate line so that a little bit more readable & you can comment what each signal is used for as I showed here.
+
+![Screenshot 2024-11-21 123240](https://github.com/user-attachments/assets/a68715ad-c8c6-4402-908a-41cee82e84fd)
+
+Here, reset and clock should be always LHS. 
+
+![Screenshot 2024-11-21 123312](https://github.com/user-attachments/assets/c5397f03-f266-4f63-8e2c-e4acb5b5642d)
+
+
+Here, **localparam** , we can pass a parameter to an instance, better for enumeratimg type of constants. 
+
+
 
 
 
