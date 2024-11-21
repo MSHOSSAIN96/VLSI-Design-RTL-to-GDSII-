@@ -847,6 +847,40 @@ Behavioral (Test bench) means higher abstract level, here we write all kinds of 
 ![Screenshot 2024-11-17 223516](https://github.com/user-attachments/assets/fedab6a9-1c96-43c0-9615-11597aad0bf5)
 
 
+**Part 2d shows how to implement a basic finite state machine in Verilog according to synthesizeable coding style.**
+
+
+![Screenshot 2024-11-21 104611](https://github.com/user-attachments/assets/265ac79a-1b48-424e-b8fb-6ca0745091d1)
+
+Here, act- (enable) represents count or just do nothing
+
+**count** that is a bus which tells what the value of current count is & 
+
+**ovflw** if we passed 1111/ we went below 0000
+
+Also, here the counter width is 4 which is default value, when we instantiate this module we can override this default value. 
+
+
+![Screenshot 2024-11-21 110730](https://github.com/user-attachments/assets/cf0cd0f6-e0ae-4829-8bea-185ea20629fb)
+
+When we hit the reset button, we go back to our idle state. Then if we stay with our activate signal at zero we will just stay inside our idle stay & not doing anything. What happens afterwards if our activate signal ==1, then we have to check if we are counting up ==1 then we go count up. Then if act ==0, we will go back to idle and not change anything and then if act is going high again, we will either count up or count down. 
+
+
+![Screenshot 2024-11-21 113548](https://github.com/user-attachments/assets/c1143707-5213-430c-9654-817ecaefb9a6)
+
+
+![Screenshot 2024-11-21 115807](https://github.com/user-attachments/assets/f02bc2ee-593c-4345-96b0-8d75d5acd1be)
+
+
+![Screenshot 2024-11-21 120328](https://github.com/user-attachments/assets/93b23add-08da-41bd-886d-ed7ceac34488)
+
+
+Here, in the instantiation stage, we connects all our signals that we just declared here to our signals to our parts of the module. 
+
+
+
+
+
 
 
 
