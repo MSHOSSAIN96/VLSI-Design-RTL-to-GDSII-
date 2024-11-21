@@ -895,6 +895,49 @@ Here, reset and clock should be always LHS.
 Here, **localparam** , we can pass a parameter to an instance, better for enumeratimg type of constants. 
 
 
+**How to write Synthesizable RTL**
+
+
+![Screenshot 2024-11-21 204315](https://github.com/user-attachments/assets/77bfd0b0-a014-4773-b494-4795f8181e0e)
+
+In this figure, we have a pair of flip-flops positive edge-triggered flip-flops that are connected to a common clock signal and a blob of logic in between. 
+
+What happens is when the clock signal rises we take the value that’s at the end of the input to this flip-flop (next_a) and we pass it over to the output that flip-flop that’s called sampling the data and the a value is now driven into this blob of logic and we put some sort of a Boolean function on to this value a until it arrives at the output of this logic function which I call here next_b on the rise of next clock edge we sample next_b and it is driven to the output of this flip flop.
+
+
+![Screenshot 2024-11-21 204542](https://github.com/user-attachments/assets/f046080e-58f9-45d8-88ef-429e287ad276)
+
+
+![Screenshot 2024-11-21 204625](https://github.com/user-attachments/assets/8614d027-2c02-43ba-9862-c6761ca87ce6)
+
+
+![Screenshot 2024-11-21 204717](https://github.com/user-attachments/assets/c5bb090e-16f8-41c3-8668-8af0a38707df)
+
+
+![Screenshot 2024-11-21 204800](https://github.com/user-attachments/assets/5e382678-105b-43b5-baf8-e8ae96430d24)
+
+
+![Screenshot 2024-11-21 204834](https://github.com/user-attachments/assets/5b7a037d-5e95-4935-97ce-1bdfcfc16c64)
+
+
+![Screenshot 2024-11-21 204906](https://github.com/user-attachments/assets/dee86198-ef18-4065-95ac-afab7bf7cf29)
+
+
+![Screenshot 2024-11-21 204946](https://github.com/user-attachments/assets/84dc5e29-6a4e-4c77-b576-ed747b411a43)
+
+
+![Screenshot 2024-11-21 205034](https://github.com/user-attachments/assets/f7da8235-5f17-4b0f-9eba-d2b06a6a0520)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
