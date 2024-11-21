@@ -906,24 +906,33 @@ What happens is when the clock signal rises we take the value that’s at the en
 
 
 ![Screenshot 2024-11-21 204542](https://github.com/user-attachments/assets/f046080e-58f9-45d8-88ef-429e287ad276)
+ 
+ Here, never create clcok domain crossings 
+
 
 
 ![Screenshot 2024-11-21 204625](https://github.com/user-attachments/assets/8614d027-2c02-43ba-9862-c6761ca87ce6)
 
 
+
 ![Screenshot 2024-11-21 204717](https://github.com/user-attachments/assets/c5bb090e-16f8-41c3-8668-8af0a38707df)
+
 
 
 ![Screenshot 2024-11-21 204800](https://github.com/user-attachments/assets/5e382678-105b-43b5-baf8-e8ae96430d24)
 
 
+
 ![Screenshot 2024-11-21 204834](https://github.com/user-attachments/assets/5b7a037d-5e95-4935-97ce-1bdfcfc16c64)
+
 
 
 ![Screenshot 2024-11-21 204906](https://github.com/user-attachments/assets/dee86198-ef18-4065-95ac-afab7bf7cf29)
 
 
+
 ![Screenshot 2024-11-21 204946](https://github.com/user-attachments/assets/84dc5e29-6a4e-4c77-b576-ed747b411a43)
+
 
 
 ![Screenshot 2024-11-21 205034](https://github.com/user-attachments/assets/f7da8235-5f17-4b0f-9eba-d2b06a6a0520)
