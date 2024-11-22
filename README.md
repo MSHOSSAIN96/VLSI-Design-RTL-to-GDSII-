@@ -938,6 +938,40 @@ What happens is when the clock signal rises we take the value that’s at the en
 ![Screenshot 2024-11-21 205034](https://github.com/user-attachments/assets/f7da8235-5f17-4b0f-9eba-d2b06a6a0520)
 
 
+**Chapter 3 is the first of two part overview of logic synthesis. The first lecture focuses on Standard Cell Libraries, which are an integral part of the synthesis process.**
+
+
+**Part 3a introduces the logic synthesis flow.**
+
+![Screenshot 2024-11-22 100627](https://github.com/user-attachments/assets/0d69f2c6-7402-485c-9fbd-18884ca5e9d3)
+ 
+ Here, in the example, describes the simple counter where all the standard cells are are instantiated after synthesis. Gate level netlists shows how they are connected. 
+
+
+ ![Screenshot 2024-11-22 100951](https://github.com/user-attachments/assets/b00042bd-647c-4cfb-aaeb-d3eb44cd222d)
+
+ Here, logic synthesis helps us to improve the productivity instaed of drawing gates and logics by hand. 
+
+
+ ![Screenshot 2024-11-22 101255](https://github.com/user-attachments/assets/1369aa11-388f-451a-8227-b0e9245e9c75)
+
+ Here, we use always@(posedge clk) blocks for flip flop. 
+
+![Screenshot 2024-11-22 101520](https://github.com/user-attachments/assets/e80a22d8-7198-4cd6-b969-f3b06db92ce1)
+
+By using Cadence Genus tool, we are performing logic synthesis. 
+Main 3 steps are mentioned above for Basic Synthsis Flow: 1. Pre-mapping Optimization 2. Technology Mapping 3. Post-mapping Optimization 
+
+
+**Part 3b briefly touches on the place of compilation within the synthesis flow.**
+
+
+![Screenshot 2024-11-22 105926](https://github.com/user-attachments/assets/75535b28-e0a0-46bd-a6ec-83c6c1531b86)
+
+
+**Part 3c presents library definitions and introduces the concept of a standard cell library.**
+
+
 
 
 
