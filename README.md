@@ -972,6 +972,50 @@ Main 3 steps are mentioned above for Basic Synthsis Flow: 1. Pre-mapping Optimiz
 **Part 3c presents library definitions and introduces the concept of a standard cell library.**
 
 
+![Screenshot 2024-11-22 160913](https://github.com/user-attachments/assets/9f6918f4-728b-4ad7-bb74-6f0609c6d09a)
+
+This certain Lib file has certain types of operating conditions in process corners. TT means typical typical means pmoses and nmoses were fabricated in their typical corner and then 1 volt would be like our main supply voltage our VDD and 25 degree Celsius that would be the temperature that the library was characterized for certain process corners for the tool to look for those Leaf cells and to map the RTL.  
+
+![Screenshot 2024-11-22 161336](https://github.com/user-attachments/assets/4ce7b8f6-c38a-436f-863a-34297de57f93)
+
+Here, an IP vendor delivers a library which is basically a set of files that describes all information about the different EDA tools. 
+
+Each type of standard cell is usually provided with several drive strengths.
+
+Each Standard cell is going to have a different width which is going to be a different multiple of minimum width of the site. Cell width is going to multiple of site width but not same for each standard cell. 
+
+Cell height is the distance between Vdd & ground. 
+
+Each type of standard cell is usually provided with several drive strengths. 
+
+![Screenshot 2024-11-22 164158](https://github.com/user-attachments/assets/5e02cc56-17c3-4af5-a084-129e6f0cb97e)
+
+Fan in = 4 (up to ) Each of the cells comes with a variety of drive strengths
+
+Each of the cells comes with a variety of drive strengths. 
+
+ECO cells are bonus cells we can use to fix all kinds of problems during designs. 
+
+CMOS is not good technology for having high fans in gates, it puts serial resistance in at least one of the network either pull up or pull down, really bad driving cell. 
+
+
+![Screenshot 2024-11-22 171719](https://github.com/user-attachments/assets/fb597cfb-ff12-4e1e-8ca1-efb606609231)
+
+Sequentials are big part of standard cell library. 
+
+![Screenshot 2024-11-22 172749](https://github.com/user-attachments/assets/bbcaf40c-51f1-4574-b22c-58b021b56e22)
+
+Filler cells are dummy cells that just has a continuity of the well and if we just tap one of those this whole well will be tapped, used for density fillers. 
+
+
+![Screenshot 2024-11-22 173053](https://github.com/user-attachments/assets/b27f6b14-4728-4551-b587-0182119d296e)
+
+
+
+
+
+
+
 
 
 
