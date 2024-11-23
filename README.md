@@ -1122,6 +1122,25 @@ Filler cells are dummy cells that just has a continuity of the well and if we ju
 ![Screenshot 2024-11-23 143127](https://github.com/user-attachments/assets/13b2b426-ee5d-492a-aa66-c2ad099e97c1)
 
 
+![Screenshot 2024-11-23 143532](https://github.com/user-attachments/assets/4bf055a2-93c7-4e28-b9df-bb11a57c1e2f)
+
+
+
+** Part 4f discusses techniques and approaches for optimizing the netlist to meet the design constraints. **
+
+
+![Screenshot 2024-11-23 144407](https://github.com/user-attachments/assets/437deba1-f3e5-4180-85ad-788541007d6b)
+
+
+![Screenshot 2024-11-23 144435](https://github.com/user-attachments/assets/d41c155d-6241-4cff-8660-f7c3e316eb79)
+
+
+![Screenshot 2024-11-23 144458](https://github.com/user-attachments/assets/a4cdefa6-f246-4f27-94c7-f0afe65adb0b)
+
+
+
+
+
 
 
 
