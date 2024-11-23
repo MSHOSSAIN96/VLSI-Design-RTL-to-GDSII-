@@ -1014,6 +1014,138 @@ Filler cells are dummy cells that just has a continuity of the well and if we ju
 ![Screenshot 2024-11-22 174540](https://github.com/user-attachments/assets/986cbf1a-0c58-49c7-9128-4bb2917ce8aa)
 
 
+**Part 3d dives into cell abstracts and the library exchange format (LEF), which is the common format to describe cell abstracts.**
+
+
+![Screenshot 2024-11-23 104541](https://github.com/user-attachments/assets/09fd255d-36c2-4f11-b43b-323c939c80ff)
+
+
+![Screenshot 2024-11-23 104627](https://github.com/user-attachments/assets/0a524e83-faf1-4322-8619-15c5a69b7e16)
+
+
+![Screenshot 2024-11-23 104707](https://github.com/user-attachments/assets/170ca0b8-78dd-4519-bbd6-446397358c1c)
+
+
+**Part 3e dives into the nonlinear delay models used for static timing analysis and the Libery (.lib) format, which is the common format to provide timing models.**
+
+
+![Screenshot 2024-11-23 104742](https://github.com/user-attachments/assets/73035fdc-5ee1-458b-a85d-a30f3bd62fa3)
+
+
+![Screenshot 2024-11-23 104946](https://github.com/user-attachments/assets/ede392b5-3308-4a6b-a0d6-a4c473f4661e)
+
+
+![Screenshot 2024-11-23 105027](https://github.com/user-attachments/assets/e45d0c1f-1f87-4a6d-b715-97b8cfd33ee6)
+
+
+![Screenshot 2024-11-23 105111](https://github.com/user-attachments/assets/becc3442-1e3f-4683-8dcc-d6f9aa4a27ab)
+
+
+**Part 3f overviews the remaining contents you can expect to find in a standard cell library.**
+
+
+![Screenshot 2024-11-23 105303](https://github.com/user-attachments/assets/47f4759d-624a-4ec4-91b0-f52e1353e42f)
+
+
+![Screenshot 2024-11-23 105341](https://github.com/user-attachments/assets/e5242374-92d5-4d84-ab47-2ff94bd534e1)
+
+
+
+**Chapter 4 continues the discussion about logic synthesis, focusing on the algorithms and mechanics that enable logic synthesis and timing optimization.**
+
+**Part 4a moves past the library definition that was focus of part 1 and on to the basic concepts of computational Boolean algebra that are basis for Boolean minimization during synthesis.**
+
+
+![Screenshot 2024-11-23 113328](https://github.com/user-attachments/assets/ba0af73b-0867-4cef-8bbc-bbe70bece6b0)
+
+
+![Screenshot 2024-11-23 120248](https://github.com/user-attachments/assets/204afbc2-6a22-4ae9-827e-eaf06fc0d75e)
+
+
+![Screenshot 2024-11-23 120849](https://github.com/user-attachments/assets/d2a27b67-f16e-430f-bf8c-183a3cb42fbe)
+
+
+![Screenshot 2024-11-23 121014](https://github.com/user-attachments/assets/378d5334-b22a-455e-9fdf-7b920c9e2b0b)
+
+
+![Screenshot 2024-11-23 121435](https://github.com/user-attachments/assets/8ebfec22-3d7c-4a0c-973f-149cb7fafd4d)
+
+
+**Part 4b continues the discussion of Boolean minimization, introducing various algorithms and data structures, such as binary decision diagrams (BDDs).**
+
+
+![Screenshot 2024-11-23 123054](https://github.com/user-attachments/assets/5ae6363b-308e-4e8c-89ca-3ad140854066)
+
+
+![Screenshot 2024-11-23 123511](https://github.com/user-attachments/assets/61c128de-fcb6-4394-8e87-855f3bef501b)
+
+
+![Screenshot 2024-11-23 124218](https://github.com/user-attachments/assets/28207c3d-8156-499e-9563-25a73f6dd586)
+
+
+**Part 4c very briefly introduces constraint definition**
+
+
+![Screenshot 2024-11-23 124555](https://github.com/user-attachments/assets/c4d94ad1-c2ab-437f-bfbe-20f2a94b0951)
+
+
+**Part 4d Technology Mapping with minimum tree covering at its heart.**
+
+
+![Screenshot 2024-11-23 130406](https://github.com/user-attachments/assets/260a7902-ecf4-48b1-8983-cf1ca7fbe751)
+
+
+![Screenshot 2024-11-23 130913](https://github.com/user-attachments/assets/3a6c7bff-9bf4-410b-96eb-6e02c6967945)
+
+
+![Screenshot 2024-11-23 130958](https://github.com/user-attachments/assets/21d2e384-a8e2-4955-9e16-7dbcb9df51c3)
+
+
+![Screenshot 2024-11-23 131035](https://github.com/user-attachments/assets/febb0c65-eec3-433b-9116-5f48e2232de5)
+
+
+**Part 4e now that we know what happens during synthesis**
+
+
+![Screenshot 2024-11-23 133643](https://github.com/user-attachments/assets/66173a12-e624-45df-98c5-377669180174)
+
+
+![Screenshot 2024-11-23 134052](https://github.com/user-attachments/assets/a892abb6-8eb8-49cb-bad3-530b271834a2)
+
+
+![Screenshot 2024-11-23 141643](https://github.com/user-attachments/assets/29a8fba9-e044-4712-a4a6-dd837f43a320)
+
+
+![Screenshot 2024-11-23 142550](https://github.com/user-attachments/assets/19be80fd-fce2-4f2e-b645-ed97310554d1)
+
+
+![Screenshot 2024-11-23 143127](https://github.com/user-attachments/assets/13b2b426-ee5d-492a-aa66-c2ad099e97c1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
