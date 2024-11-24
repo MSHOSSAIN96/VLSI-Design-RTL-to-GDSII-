@@ -1344,3 +1344,5 @@ Part 5e introduces the Synopsys Design Constraint (SDC) format and its most impo
 
 
 
+
+
