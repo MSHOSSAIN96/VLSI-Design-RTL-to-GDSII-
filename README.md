@@ -1138,6 +1138,145 @@ Filler cells are dummy cells that just has a continuity of the well and if we ju
 ![Screenshot 2024-11-23 144458](https://github.com/user-attachments/assets/a4cdefa6-f246-4f27-94c7-f0afe65adb0b)
 
 
+**Chapter 5 covers the basics of static timing analysis (STA), used for optimization and for constraint checking. Timing is covered from both an algorithmic and a practical level, including examples of implementations in the Cadence work flow.**
+
+**Part 5a introduces the concept of timing analysis in sequential circuits.**
+
+
+![Screenshot 2024-11-24 130304](https://github.com/user-attachments/assets/59e35014-65e1-43c7-95f5-fda19f8196dc)
+
+
+![Screenshot 2024-11-24 130638](https://github.com/user-attachments/assets/7984bdee-dfc1-4c5a-be76-8c59b382a1d5)
+
+
+![Screenshot 2024-11-24 130759](https://github.com/user-attachments/assets/a79c65c6-6c2c-41be-b96f-2f5618727fa9)
+
+
+
+**Part 5b goes over the primary timing constraints (max delay and min delay) in sequential circuits.**
+
+
+![Screenshot 2024-11-24 141335](https://github.com/user-attachments/assets/3e48671c-c6ac-47a3-81f4-1a8888a80d14)
+
+
+![Screenshot 2024-11-24 141431](https://github.com/user-attachments/assets/53abecc4-4d80-4efc-ad28-244e6be47cf0)
+
+
+![Screenshot 2024-11-24 141501](https://github.com/user-attachments/assets/ce8147ce-0086-41db-94f7-8072360aa75c)
+
+
+**Part 5c introduces static timing analysis (STA) - the means for verifying timing.**
+
+
+![Screenshot 2024-11-24 152738](https://github.com/user-attachments/assets/28d1cff9-28ec-47f9-a13b-e28e77cfd08e)
+
+
+![Screenshot 2024-11-24 152817](https://github.com/user-attachments/assets/96f72b6e-f16c-4d13-a8e3-4fe831539719)
+
+
+![Screenshot 2024-11-24 152851](https://github.com/user-attachments/assets/798ac145-6a1c-43ea-a10a-7735ed3d782b)
+
+
+![Screenshot 2024-11-24 152918](https://github.com/user-attachments/assets/807b350c-9e6d-431b-bef8-2749a384825b)
+
+
+![Screenshot 2024-11-24 152956](https://github.com/user-attachments/assets/0a7877be-715e-49d2-aee2-657e32f034e6)
+
+
+**Part 5d provides a step by step example of how STA works.**
+
+
+![Screenshot 2024-11-24 173856](https://github.com/user-attachments/assets/17148923-1eee-4df6-9da2-187c72b23a35)
+
+
+![Screenshot 2024-11-24 173938](https://github.com/user-attachments/assets/43a8bc44-61fa-453f-a9ee-a9f3897f0b05)
+
+
+![Screenshot 2024-11-24 174012](https://github.com/user-attachments/assets/d9baeaca-efef-47f0-8618-f63bfa5242ee)
+
+
+![Screenshot 2024-11-24 174047](https://github.com/user-attachments/assets/d513d730-4750-4934-ba0f-952eeb3a096d)
+
+
+
+
+Part 5e introduces the Synopsys Design Constraint (SDC) format and its most important commands.
+
+
+![Screenshot 2024-11-24 175526](https://github.com/user-attachments/assets/43005232-c6f1-46a5-9459-1a4c4ac1dd81)
+
+
+![Screenshot 2024-11-24 175615](https://github.com/user-attachments/assets/58de12ff-7d86-402b-919c-6509be23ce66)
+
+
+**Part 5f continues the tutorial about SDC.**
+
+![Screenshot 2024-11-24 184123](https://github.com/user-attachments/assets/8a072ab2-bed7-418a-a9d6-90f16b44d1af)
+
+
+![Screenshot 2024-11-24 184143](https://github.com/user-attachments/assets/63925aa8-3096-4fd4-8b6d-7d1d1bc5db82)
+
+
+![Screenshot 2024-11-24 184159](https://github.com/user-attachments/assets/2f5f06bd-f9a1-408e-acfd-dd379b46ee91)
+
+
+![Screenshot 2024-11-24 184214](https://github.com/user-attachments/assets/9a2419ce-5590-43e5-9108-4a759b17b17c)
+
+
+![Screenshot 2024-11-24 184229](https://github.com/user-attachments/assets/12128097-1fae-404e-a49e-4481b8b30b7f)
+
+
+**Part 5g demonstrates what a timing report looks like and how to read it.**
+
+![Screenshot 2024-11-24 200924](https://github.com/user-attachments/assets/fef2be4f-8939-4a59-a496-3c01be877220)
+
+
+![Screenshot 2024-11-24 200945](https://github.com/user-attachments/assets/1444ece4-9416-4193-b885-f46f43b120b1)
+
+
+![Screenshot 2024-11-24 201003](https://github.com/user-attachments/assets/b8bc3c2b-d03e-41fe-8692-f0165ca6ca17)
+
+
+![Screenshot 2024-11-24 201040](https://github.com/user-attachments/assets/0cde8ecf-b90d-453f-b2be-32fbe9508d2a)
+
+
+![Screenshot 2024-11-24 201057](https://github.com/user-attachments/assets/f9445227-307b-4737-a26c-4cf39243aa68)
+
+
+![Screenshot 2024-11-24 201111](https://github.com/user-attachments/assets/b1ca484e-46bf-47ac-b2fb-ac30ad446bc0)
+
+
+![Screenshot 2024-11-24 201125](https://github.com/user-attachments/assets/e5e7682c-bf9a-4b08-9a15-b7a64b5bd829)
+
+
+![Screenshot 2024-11-24 201139](https://github.com/user-attachments/assets/0d374fd6-2d9e-48b8-b780-b2041c5ae4cf)
+
+
+**Part 5h introduces the concept of multi-mode multi-corner (MMMC or MCMM) and how to define it within Cadence tools.**
+
+
+![Screenshot 2024-11-24 203904](https://github.com/user-attachments/assets/71d106bb-3d21-4038-9a92-ec53553f1d47)
+
+
+![Screenshot 2024-11-24 204002](https://github.com/user-attachments/assets/138d08fa-f10c-4fbf-b01c-1e227bc5c2e8)
+
+
+![Screenshot 2024-11-24 204019](https://github.com/user-attachments/assets/aad0645a-f129-490f-b561-682f25fb5783)
+
+
+![Screenshot 2024-11-24 204034](https://github.com/user-attachments/assets/bc1d66c0-598f-4981-83a6-b32fb776d60d)
+
+
+![Screenshot 2024-11-24 204046](https://github.com/user-attachments/assets/2233e905-4d91-4193-b39e-629489c1cec1)
+
+
+![Screenshot 2024-11-24 204058](https://github.com/user-attachments/assets/559faad4-8ed7-445d-9b59-a80f736f00aa)
+
+
+
+
+
+
 
 
 
