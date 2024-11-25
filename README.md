@@ -1273,6 +1273,42 @@ Part 5e introduces the Synopsys Design Constraint (SDC) format and its most impo
 ![Screenshot 2024-11-24 204058](https://github.com/user-attachments/assets/559faad4-8ed7-445d-9b59-a80f736f00aa)
 
 
+**Chapter 6 covers the traversal from the logical domain of RTL and Synthesis to the Physical Implementation stages of Floorplanning, Placement and Routing. This chapter focuses on Floorplanning, including Power Planning and a bit about Multi-Voltage and Hierarchical design.**
+
+**Part 6a goes over the move from the logical to the physical domain at a high-level, including an overview of the place and route flow.**
+
+
+![Screenshot 2024-11-25 094122](https://github.com/user-attachments/assets/24a89da6-0faa-45ea-9bed-62c7af3ebac7)
+
+
+![Screenshot 2024-11-25 094200](https://github.com/user-attachments/assets/2d1a52f4-8d25-440c-9729-68463efef029)
+
+
+![Screenshot 2024-11-25 094221](https://github.com/user-attachments/assets/ef43c917-8e3b-4928-9101-d85827514e89)
+
+
+
+![Screenshot 2024-11-25 094241](https://github.com/user-attachments/assets/7869cd39-55e3-40db-83f3-5e93abfbe31b)
+
+
+
+**Part 6b provides a brief introduction to the concept of multiple voltage domain design, power gates, CPF/UPF, and low-power design in general.**
+
+
+![Screenshot 2024-11-25 095519](https://github.com/user-attachments/assets/56666297-10a5-4a3c-8941-56cd55727552)
+
+
+![Screenshot 2024-11-25 095540](https://github.com/user-attachments/assets/7fcfb937-fd81-4a86-b774-a162b91275a3)
+
+
+![Screenshot 2024-11-25 095627](https://github.com/user-attachments/assets/69d91ba7-64af-48e1-aa56-133fef659b6e)
+
+
+![Screenshot 2024-11-25 095712](https://github.com/user-attachments/assets/d2dc2fd6-8736-428e-ae27-054bc89018c8)
+
+
+
+
 
 
 
