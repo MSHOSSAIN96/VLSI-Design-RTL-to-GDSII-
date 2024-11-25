@@ -1308,6 +1308,81 @@ Part 5e introduces the Synopsys Design Constraint (SDC) format and its most impo
 
 
 
+**Part 6c explains the process of floorplanning, one of the most important parts of the backend design, including methodologies, tips, and good practice when building a floorplan.**
+
+
+![Screenshot 2024-11-25 205635](https://github.com/user-attachments/assets/3203ab71-e172-4da2-9a27-79efb88864b2)
+
+
+
+![Screenshot 2024-11-25 205649](https://github.com/user-attachments/assets/b03b9819-692c-400b-b295-6bccf48cb00f)
+
+
+
+
+![Screenshot 2024-11-25 205730](https://github.com/user-attachments/assets/fec00b61-529f-4bfd-ad15-edd0b469ffd0)
+
+
+![Screenshot 2024-11-25 205708](https://github.com/user-attachments/assets/40b09ee9-9f5a-432a-9aa8-a946f32c395b)
+
+
+![Screenshot 2024-11-25 205749](https://github.com/user-attachments/assets/8cb65276-2b56-44b3-9d81-388ee69faf69)
+
+
+
+![Screenshot 2024-11-25 205809](https://github.com/user-attachments/assets/570231c0-d538-4dca-b294-debf08f92125)
+
+
+![Screenshot 2024-11-25 205825](https://github.com/user-attachments/assets/7b74c8f3-28df-47b2-a5fd-fb09df4aa843)
+
+
+![Screenshot 2024-11-25 205845](https://github.com/user-attachments/assets/f8fb7529-5ec9-40e3-bb7c-2cf6dfc48e83)
+
+
+![Screenshot 2024-11-25 205900](https://github.com/user-attachments/assets/ddc52172-c8e0-4b59-bc47-d7aedb69d48a)
+
+
+![Screenshot 2024-11-25 205916](https://github.com/user-attachments/assets/c756a6de-999c-4a13-9aa8-40e363cae8f4)
+
+
+
+![Screenshot 2024-11-25 205934](https://github.com/user-attachments/assets/40ea584a-82b1-447d-bded-5ff49be352d2)
+
+
+
+![Screenshot 2024-11-25 205956](https://github.com/user-attachments/assets/26d5da78-a73d-4150-919a-c824c01362fe)
+
+
+![Screenshot 2024-11-25 210015](https://github.com/user-attachments/assets/fa658e6b-b841-4f10-b2ae-1ad25b02cd38)
+
+
+**Part 6d provides a brief overview of hierarchical physical design, which is commonly used for designs with a very large number of instances. This overview includes the interface logic models (ILM). **
+
+
+![Screenshot 2024-11-25 211726](https://github.com/user-attachments/assets/f3a28ccf-ee44-4072-81ac-8f357d87a92f)
+
+
+![Screenshot 2024-11-25 211811](https://github.com/user-attachments/assets/bf09bdc7-96c3-439e-8a47-ca3c83013d49)
+
+
+![Screenshot 2024-11-25 211844](https://github.com/user-attachments/assets/d2253757-741f-4c2b-9c1d-272f4b99f8ee)
+
+
+![Screenshot 2024-11-25 211925](https://github.com/user-attachments/assets/c509f448-2282-4ec0-b699-f3bc605c6d5b)
+
+**
+Part 6e overviews power planning, explaining important design considerations, such as IR Drop and Electromigration, with examples from famous ICs, such as the DEC Alpha chips.**
+
+
+
+
+
+
+
+
+
+
+
 
 
 
