@@ -1374,6 +1374,50 @@ Part 5e introduces the Synopsys Design Constraint (SDC) format and its most impo
 Part 6e overviews power planning, explaining important design considerations, such as IR Drop and Electromigration, with examples from famous ICs, such as the DEC Alpha chips.**
 
 
+![Screenshot 2024-11-30 153338](https://github.com/user-attachments/assets/8e037a7f-8800-4937-8c0e-e86bea8dc751)
+
+
+![Screenshot 2024-11-30 153354](https://github.com/user-attachments/assets/047ae039-90a2-4178-a11e-10170d81b756)
+
+
+![Screenshot 2024-11-30 153500](https://github.com/user-attachments/assets/7333123a-9d25-4bf2-bb94-c4f8d2a9674d)
+
+
+![Screenshot 2024-11-30 153558](https://github.com/user-attachments/assets/38232c47-e42c-4158-a11a-2f3c38fa627b)
+
+
+![Screenshot 2024-11-30 153636](https://github.com/user-attachments/assets/ae9f3abb-0e9f-47d3-842c-cbe72b241e9a)
+
+
+![Screenshot 2024-11-30 153711](https://github.com/user-attachments/assets/72f3ada4-e00e-4c9d-b1b3-0d7ba981c0b9)
+
+
+![Screenshot 2024-11-30 153745](https://github.com/user-attachments/assets/729da092-7530-4aac-94f7-6637f88fe4ba)
+
+
+![Screenshot 2024-11-30 153821](https://github.com/user-attachments/assets/16db9b89-1cb7-43bb-a3da-bf6c1a8951f2)
+
+
+![Screenshot 2024-11-30 153856](https://github.com/user-attachments/assets/fd1c9468-6624-421c-8074-784d7651a6b4)
+
+
+![Screenshot 2024-11-30 153924](https://github.com/user-attachments/assets/4be1809c-50f7-4044-91f0-c91310be5486)
+
+
+![Screenshot 2024-11-30 154011](https://github.com/user-attachments/assets/7fdde9cf-9489-4a56-87ca-1be42e612da5)
+
+
+![Screenshot 2024-11-30 154048](https://github.com/user-attachments/assets/21dea327-f8fd-43bd-a04f-cf14d96cfbcf)
+
+
+
+
+
+
+
+
+
+
 
 
 
