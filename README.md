@@ -1407,7 +1407,19 @@ Part 6e overviews power planning, explaining important design considerations, su
 ![Screenshot 2024-11-30 154011](https://github.com/user-attachments/assets/7fdde9cf-9489-4a56-87ca-1be42e612da5)
 
 
-![Screenshot 2024-11-30 154048](https://github.com/user-attachments/assets/21dea327-f8fd-43bd-a04f-cf14d96cfbcf)
+![Screenshot 2024-11-30 154048](https://github.com/user-attachments/assets/21dea327-f8fd-43bd-a04f-cf14d96cfbcf) 
+
+
+
+**Chapter 7 covers the basics of standard cell placement, including algorithmic basis (random and analytical placement) and practical aspects of placement.**
+
+
+**Part 7a introduces the placement process and also goes over the meaning of (equivalent) gate count.**
+
+
+
+
+
 
 
 
