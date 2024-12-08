@@ -1535,6 +1535,125 @@ Part 6e overviews power planning, explaining important design considerations, su
 ![Screenshot 2024-12-08 181246](https://github.com/user-attachments/assets/555c31fc-cf49-48ab-a316-b9885e502112)
 
 
+**Chapter 8 covers the realization of the clocking network, starting from the basic ideas, through clock trees and alternative approaches, such as clock grids and spines. The chapter also covers clock concurrent optimization (CCOpt) and implementing clock trees in EDA tools.**
+
+
+**Part 8a introduces the clock net and its implications on timing, power, signal integrity and area.**
+
+
+![Screenshot 2024-12-08 201951](https://github.com/user-attachments/assets/6fd9c037-d8a1-452e-8e48-6d263d03af9b)
+
+
+![Screenshot 2024-12-08 202036](https://github.com/user-attachments/assets/1185cc1e-35ed-45c5-b9a1-2397bfeab58e)
+
+
+![Screenshot 2024-12-08 202114](https://github.com/user-attachments/assets/72e1056b-7033-48cb-9262-8202cc33ec4b)
+
+
+![Screenshot 2024-12-08 202233](https://github.com/user-attachments/assets/056a45a7-734e-4a41-b3d3-a06da8b1ed10)
+
+
+![Screenshot 2024-12-08 202331](https://github.com/user-attachments/assets/2a701688-a438-4b9f-9eda-136cd7e69454)
+
+
+![Screenshot 2024-12-08 202424](https://github.com/user-attachments/assets/f40ef69e-0b63-42f8-bb8b-be935b73e261)
+
+
+![Screenshot 2024-12-08 202452](https://github.com/user-attachments/assets/a240582f-0e02-4cda-a8c9-1bd066f5c560)
+
+
+![Screenshot 2024-12-08 202518](https://github.com/user-attachments/assets/f98ce449-94ac-4950-b6d8-0ca81f0e1115)
+
+
+![Screenshot 2024-12-08 202548](https://github.com/user-attachments/assets/50272b27-0f30-4bdb-8c89-a3232f2f9350)
+
+
+
+**Part 8b describes various approaches to the distribution of clock trees, including H-Trees, Clock Grids, and Clock Spines.**
+
+
+
+
+![Screenshot 2024-12-08 234500](https://github.com/user-attachments/assets/deecb868-4c5b-43af-ac1a-23ec206b3830)
+
+
+
+![Screenshot 2024-12-08 234600](https://github.com/user-attachments/assets/3b9199ec-2d61-4ad8-bee5-3c11feeb6490)
+
+
+
+![Screenshot 2024-12-08 234631](https://github.com/user-attachments/assets/74c1c6c5-08c8-46d7-be6b-63d8e3968b71)
+
+
+
+![Screenshot 2024-12-08 234747](https://github.com/user-attachments/assets/deb5a960-84fe-4234-8281-2be642ec2fa0)
+
+
+
+![Screenshot 2024-12-08 234815](https://github.com/user-attachments/assets/35c94ed0-a528-46ee-a8d7-e68b1099c8af)
+
+
+
+![Screenshot 2024-12-08 234849](https://github.com/user-attachments/assets/7ed47009-2c88-40d1-849c-00fc3b849a80)
+
+
+
+![Screenshot 2024-12-08 234910](https://github.com/user-attachments/assets/450337a9-1c3b-4234-a0dd-92d1a567d8c0)
+
+
+
+
+![Screenshot 2024-12-08 234941](https://github.com/user-attachments/assets/4ce0858b-d911-4cd8-9ee7-65ef24ee0440)
+
+
+
+
+![Screenshot 2024-12-08 235025](https://github.com/user-attachments/assets/cec18e8f-d16f-4090-a83e-929c73629313)
+
+
+
+
+![Screenshot 2024-12-08 235053](https://github.com/user-attachments/assets/0aa40d0a-f638-4b49-a876-db09df3965ac)
+
+
+
+**Part 8c continues the discussion of clock distribution with active deskewing and DLLs and then moves on to an alternative approach to CTS, known as Clock Concurrent Optimization (CCOpt).**
+
+
+
+![Screenshot 2024-12-08 235113](https://github.com/user-attachments/assets/6a2de066-7088-4697-842b-4f3fa2745e04)
+
+
+
+![Screenshot 2024-12-09 002616](https://github.com/user-attachments/assets/24d60d11-7fb0-4aaf-a7e6-f52328b3fee5)
+
+
+![Screenshot 2024-12-09 002639](https://github.com/user-attachments/assets/7e5dc685-c461-44d8-9b93-1c8a4e2e5b10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
