@@ -1417,6 +1417,139 @@ Part 6e overviews power planning, explaining important design considerations, su
 **Part 7a introduces the placement process and also goes over the meaning of (equivalent) gate count.**
 
 
+![Screenshot 2024-12-08 172859](https://github.com/user-attachments/assets/29e466be-6419-4e6c-b6cd-9bd173b0ae30)
+
+
+![Screenshot 2024-12-08 173938](https://github.com/user-attachments/assets/66b97fcb-ac91-4f21-bf50-47defd687ddd)
+
+
+![Screenshot 2024-12-08 175109](https://github.com/user-attachments/assets/8d9dac9a-cb6b-41b4-9687-c880aaf5ba08)
+
+
+![Screenshot 2024-12-08 175142](https://github.com/user-attachments/assets/a2ae6742-0875-4f72-afb0-bba14811ded1)
+
+
+**Part 7b provides a trivial random placement algorithm, analyzes its efficiency and drawbacks, and continues on to a simulated annealing approach.**
+
+
+![Screenshot 2024-12-08 175357](https://github.com/user-attachments/assets/64190980-a671-43d0-87f6-52c6eb010bc7)
+
+
+![Screenshot 2024-12-08 175447](https://github.com/user-attachments/assets/9aefccd1-397b-4350-9229-5ff3fc79e63f)
+
+
+![Screenshot 2024-12-08 175528](https://github.com/user-attachments/assets/45320166-76a2-4f8b-b5ab-115f11a15231)
+
+
+![Screenshot 2024-12-08 175612](https://github.com/user-attachments/assets/c385d9f3-c28c-432b-95a8-42cd40427e11)
+
+
+![Screenshot 2024-12-08 175652](https://github.com/user-attachments/assets/20d44f8c-7658-4d2f-b43e-c074802ec5b4)
+
+
+![Screenshot 2024-12-08 175725](https://github.com/user-attachments/assets/f210dfdd-720b-4443-aa24-9c1e00548c80)
+
+
+![Screenshot 2024-12-08 175801](https://github.com/user-attachments/assets/62980d0f-d6a2-4a07-99d0-ce96e7322f4f)
+
+
+**Part 7c shows how analytic placement can provide an optimal solution to the placement problem... if all assumptions are correct.
+**
+
+![Screenshot 2024-12-08 180001](https://github.com/user-attachments/assets/c6010b7b-b95c-4dc0-8f34-174c84eb1fd2)
+
+
+![Screenshot 2024-12-08 180034](https://github.com/user-attachments/assets/bef1e9da-379c-4330-9c3a-717c5e71a62c)
+
+
+![Screenshot 2024-12-08 180100](https://github.com/user-attachments/assets/6cf7cc74-20c9-4023-b53b-759ae74f7bad)
+
+
+![Screenshot 2024-12-08 180153](https://github.com/user-attachments/assets/976d44b7-62c8-497e-8f72-f9c18f5f10b0)
+
+
+![Screenshot 2024-12-08 180213](https://github.com/user-attachments/assets/d446dd91-388e-4886-a18b-075f4eb1f139)
+
+
+![Screenshot 2024-12-08 180232](https://github.com/user-attachments/assets/44027f2a-9731-4bbc-87c9-38740ce4e937)
+
+
+![Screenshot 2024-12-08 180251](https://github.com/user-attachments/assets/2ba4bffa-0820-46d0-a49e-19bf29389d12)
+
+
+![Screenshot 2024-12-08 180316](https://github.com/user-attachments/assets/c084a2a1-620b-4038-bee0-c2e2ec6cfbe3)
+
+
+![Screenshot 2024-12-08 180334](https://github.com/user-attachments/assets/2286ab48-9b94-46c0-8343-319e536a5721)
+
+
+![Screenshot 2024-12-08 180348](https://github.com/user-attachments/assets/68083092-6325-4f76-9dd6-9aff7ecd3306)
+
+
+![Screenshot 2024-12-08 180407](https://github.com/user-attachments/assets/0c83c5d6-3a59-4e5c-b887-5025e80b0781)
+
+
+![Screenshot 2024-12-08 180423](https://github.com/user-attachments/assets/c0237567-50b0-4919-8630-a4a1449f4380)
+
+
+![Screenshot 2024-12-08 180444](https://github.com/user-attachments/assets/39c0888e-0228-4c27-a213-d53286675d23)
+
+
+
+**Part 7d gives a step by step example of analytic placement to better understand the mechanics of this process.**
+
+
+![Screenshot 2024-12-08 180926](https://github.com/user-attachments/assets/8c25fec2-abbb-4408-bede-fabb1024372a)
+
+
+![Screenshot 2024-12-08 180947](https://github.com/user-attachments/assets/8642b452-a7af-489e-bc93-21f69fce4beb)
+
+
+![Screenshot 2024-12-08 181016](https://github.com/user-attachments/assets/f38d2b61-81eb-4c08-b3c5-9737a08361a3)
+
+
+![Screenshot 2024-12-08 181044](https://github.com/user-attachments/assets/f60d9d7d-9494-4eec-8858-e858f939c168)
+
+
+![Screenshot 2024-12-08 181108](https://github.com/user-attachments/assets/3acfaee7-9842-40f8-a21d-881434d6ae35)
+
+
+![Screenshot 2024-12-08 181147](https://github.com/user-attachments/assets/c7f85cfc-437f-4d7f-9ff2-7b99250ec947)
+
+
+![Screenshot 2024-12-08 181204](https://github.com/user-attachments/assets/777e0bb4-8851-4452-9a7c-e4848ff1bc95)
+
+
+![Screenshot 2024-12-08 181226](https://github.com/user-attachments/assets/8b1a61f7-c73d-44b2-929d-59ea463cace5)
+
+
+![Screenshot 2024-12-08 181246](https://github.com/user-attachments/assets/555c31fc-cf49-48ab-a316-b9885e502112)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
