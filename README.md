@@ -1476,6 +1476,11 @@ Part 6e overviews power planning, explaining important design considerations, su
 ![Screenshot 2024-12-08 180232](https://github.com/user-attachments/assets/44027f2a-9731-4bbc-87c9-38740ce4e937)
 
 
+
+**Part 7d gives a step by step example of analytic placement to better understand the mechanics of this process.**
+
+
+
 ![Screenshot 2024-12-08 180251](https://github.com/user-attachments/assets/2ba4bffa-0820-46d0-a49e-19bf29389d12)
 
 
@@ -1500,6 +1505,7 @@ Part 6e overviews power planning, explaining important design considerations, su
 
 
 **Part 7e shifts over to the EDA tools, showing how placement is done in practice within the commercial tools.**
+
 
 
 ![Screenshot 2024-12-08 180926](https://github.com/user-attachments/assets/8c25fec2-abbb-4408-bede-fabb1024372a)
