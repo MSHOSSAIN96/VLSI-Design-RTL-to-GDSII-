@@ -1634,6 +1634,108 @@ Part 6e overviews power planning, explaining important design considerations, su
 
 
 
+**Part 8d explains how CTS is implemented in EDA tools with different definitions for guiding CTS.**
+
+
+
+![Screenshot 2024-12-09 171402](https://github.com/user-attachments/assets/6335de8a-95f2-48b5-99fc-2a63e937a930)
+
+
+![Screenshot 2024-12-09 171435](https://github.com/user-attachments/assets/d0bafe37-0a62-4995-8891-16a2a4cb84e7)
+
+
+
+![Screenshot 2024-12-09 171456](https://github.com/user-attachments/assets/a4b3eab0-792a-4919-bb29-7c80b109c2cf)
+
+
+![Screenshot 2024-12-09 171529](https://github.com/user-attachments/assets/f6b511ae-96c4-4aa1-bde5-bf6678493ed3)
+
+
+![Screenshot 2024-12-09 171554](https://github.com/user-attachments/assets/3bb802d7-f6e1-4174-8dca-07737515aa3d)
+
+
+![Screenshot 2024-12-09 171615](https://github.com/user-attachments/assets/48f26efe-3ab1-4072-95bb-71ef4e624afb)
+
+
+![Screenshot 2024-12-09 171632](https://github.com/user-attachments/assets/3383b287-a7c1-4718-9dce-04f0bf7a6c9d)
+
+
+![Screenshot 2024-12-09 171706](https://github.com/user-attachments/assets/e0674801-c2df-4357-ae2a-5d9ed4e9abe8)
+
+
+
+
+**Part 8e overviews the routing of the clock net and directives for clock routing and then goes into the analysis of the synthesized clock tree.**
+
+
+![Screenshot 2024-12-09 181128](https://github.com/user-attachments/assets/53610a9c-4d27-4486-a0dd-48b8e2dcf474)
+
+
+![Screenshot 2024-12-09 181148](https://github.com/user-attachments/assets/86ca0690-d527-413c-8bc5-5caab2d501da)
+
+
+![Screenshot 2024-12-09 181201](https://github.com/user-attachments/assets/f661b6cc-babb-41e2-9d67-c7222b493708)
+
+
+![Screenshot 2024-12-09 181216](https://github.com/user-attachments/assets/769d0ff3-1a5c-4158-a6e5-1de5739464d0)
+
+
+![Screenshot 2024-12-09 181238](https://github.com/user-attachments/assets/231b7300-0037-4650-8b9b-6244f3f53341)
+
+
+![Screenshot 2024-12-09 181257](https://github.com/user-attachments/assets/24f4748a-700e-4fd8-95d1-ccfa050fd81e)
+
+
+![Screenshot 2024-12-09 181314](https://github.com/user-attachments/assets/10f5ff6d-27d9-419a-867f-ae0b8d114d25)
+
+
+
+**Part 8f is an addendum to the lecture on CTS, providing a very high-level overview of clock generation with PLLs and DLLs.**
+
+
+![Screenshot 2024-12-09 182740](https://github.com/user-attachments/assets/24c296da-749f-4c5d-8b76-edbbe5beffb4)
+
+
+![Screenshot 2024-12-09 182808](https://github.com/user-attachments/assets/64782185-2309-42d6-9616-edae842587f1)
+
+
+![Screenshot 2024-12-09 182841](https://github.com/user-attachments/assets/f90b1c09-7969-4269-992c-1e069a8b5049)
+
+
+**Lecture 8g is an addendum to the lecture on CTS, providing an introduction to one of the biggest pitfalls in IC design - clock domain crossing (CDC).**
+
+
+![Screenshot 2024-12-09 184608](https://github.com/user-attachments/assets/bbc9e40e-c152-49c9-8ab6-fc2f99a23e71)
+
+
+![Screenshot 2024-12-09 184632](https://github.com/user-attachments/assets/a1584ec0-e1ae-4f45-b6d7-977fc5dc8267)
+
+
+![Screenshot 2024-12-09 184700](https://github.com/user-attachments/assets/5844ce26-579a-43fb-88ee-d85289d4a0b4)
+
+
+![Screenshot 2024-12-09 184718](https://github.com/user-attachments/assets/b3f9efcd-c772-4aca-a192-7d9cfa2e5f98)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
