@@ -1717,6 +1717,14 @@ Part 6e overviews power planning, explaining important design considerations, su
 ![Screenshot 2024-12-09 184718](https://github.com/user-attachments/assets/b3f9efcd-c772-4aca-a192-7d9cfa2e5f98)
 
 
+**Chapter 9 covers the routing process, including basic approaches to maze routing algorithms and how routing is carried out in practice within EDA tools.**
+
+
+**Part 9a introduces the high complexity problem of routing a modern integrated circuit.**
+
+
+
+
 
 
 
