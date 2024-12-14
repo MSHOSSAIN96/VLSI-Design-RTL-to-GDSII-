@@ -1723,6 +1723,122 @@ Part 6e overviews power planning, explaining important design considerations, su
 **Part 9a introduces the high complexity problem of routing a modern integrated circuit.**
 
 
+![Screenshot 2024-12-14 131804](https://github.com/user-attachments/assets/5f431b5d-e629-4191-9932-9470b43f209c)
+
+
+![Screenshot 2024-12-14 131900](https://github.com/user-attachments/assets/e1c1aa40-1a50-471d-843c-46de883d20ac)
+
+
+
+**Part 9b introduces Maze (Lee) Routing, including how to deal with blockages and multi-target nets.**
+
+
+
+![Screenshot 2024-12-14 132310](https://github.com/user-attachments/assets/d3c0bf05-fdc9-49b6-8568-33b4a732fda7)
+
+
+
+![Screenshot 2024-12-14 132346](https://github.com/user-attachments/assets/d30eb7ef-a6f7-42f1-83d7-ae4a238eac29)
+
+
+
+![Screenshot 2024-12-14 132402](https://github.com/user-attachments/assets/8f586d8f-3d42-4ed9-b0d4-8714d669b2cb)
+
+
+
+![Screenshot 2024-12-14 132427](https://github.com/user-attachments/assets/6d409cd3-47e8-42a9-9c5f-aa948768d2d9)
+
+
+
+
+![Screenshot 2024-12-14 132450](https://github.com/user-attachments/assets/e25a01e2-e5e2-4ac5-915f-241de11aadb4)
+
+
+
+![Screenshot 2024-12-14 132518](https://github.com/user-attachments/assets/286a4c51-3401-4029-94ff-d9397c8accb2)
+
+
+
+![Screenshot 2024-12-14 132531](https://github.com/user-attachments/assets/671315fa-3b45-4e0a-93c0-cba6dde8f769)
+
+
+
+**Part 9 covers the routing process, including basic approaches to maze routing algorithms and how routing is carried out in practice within EDA tools.**
+
+
+![Screenshot 2024-12-14 133016](https://github.com/user-attachments/assets/f37586d2-7e6b-44dc-a601-7e6ca07c35e3)
+
+
+![Screenshot 2024-12-14 133043](https://github.com/user-attachments/assets/cae00cd0-e192-49da-86cf-d8eadfd5c147)
+
+
+![Screenshot 2024-12-14 133101](https://github.com/user-attachments/assets/e80c8e14-ba7f-4580-a348-ceb041f751d4)
+
+
+![Screenshot 2024-12-14 133128](https://github.com/user-attachments/assets/a5af7ce2-e2fd-4e0b-b9ce-582612a06ddc)
+
+
+![Screenshot 2024-12-14 133145](https://github.com/user-attachments/assets/53e4e8dd-083a-40f2-a821-99d263928fb8)
+
+
+![Screenshot 2024-12-14 133201](https://github.com/user-attachments/assets/7ee11d92-05ee-4caf-9cdc-1b7b1a39f579)
+
+
+![Screenshot 2024-12-14 133227](https://github.com/user-attachments/assets/b62bf8f0-9418-4ce1-81b9-3070c6e6e27b)
+
+
+
+**Part 9d overviews how routing is implemented and designed in EDA tools.**
+
+
+
+![Screenshot 2024-12-14 133626](https://github.com/user-attachments/assets/878ab623-0111-48c6-9aa4-40a9e7c876a3)
+
+
+
+![Screenshot 2024-12-14 133657](https://github.com/user-attachments/assets/f1883d7a-a5dd-4883-a993-d05ba73db2f9)
+
+
+
+![Screenshot 2024-12-14 133722](https://github.com/user-attachments/assets/5ab8dd68-9199-4b18-b17c-3406b68576e3)
+
+
+
+![Screenshot 2024-12-14 133740](https://github.com/user-attachments/assets/8b6d3f6f-fc84-444d-aa68-1711211f8e85)
+
+
+
+![Screenshot 2024-12-14 133755](https://github.com/user-attachments/assets/089b4055-b383-4d3d-a8dd-cbe1a654c5b8)
+
+
+
+**Part 9e continues routing in practice, going over important issues that arise due to routing, such as SI (signal integrity) and design for manufacturing (DFM).**
+
+
+![Screenshot 2024-12-14 134107](https://github.com/user-attachments/assets/eda4749f-6216-4df8-97f7-2a68abb27c24)
+
+
+![Screenshot 2024-12-14 134123](https://github.com/user-attachments/assets/d9fdd123-a9cd-4173-bd86-eb3bf01015eb)
+
+
+![Screenshot 2024-12-14 134138](https://github.com/user-attachments/assets/e930a2ed-f86e-4cf2-af6e-1ceb3c1e4fb8)
+
+
+![Screenshot 2024-12-14 134152](https://github.com/user-attachments/assets/6370e941-5687-4fa5-b64e-d5b6e64a7b89)
+
+
+![Screenshot 2024-12-14 134206](https://github.com/user-attachments/assets/89e5f860-8fea-442c-a1e1-5d1aae38e194)
+
+
+![Screenshot 2024-12-14 134221](https://github.com/user-attachments/assets/08bcf0a4-4ee2-41fc-9586-84b2531c5acd)
+
+
+![Screenshot 2024-12-14 134238](https://github.com/user-attachments/assets/c1f2dc98-6e34-40f8-88d9-99957331fce7)
+
+
+![Screenshot 2024-12-14 134252](https://github.com/user-attachments/assets/66ab3373-b5eb-41b1-a4fd-e21d10efa34f)
+
+
 **Chapter 10 covers the basics of IC packaging and the interface to the outside world through Input/Output (I/O) circuits.**
 
 **Part 10a briefly discusses the job of the chip package, its main requirements and major types of chip packages, including wire bonded vs. flip-chip packages.**
@@ -2318,6 +2434,39 @@ Synopsys’s formal equivalence checker.
 Widely used for its integration with the Synopsys synthesis and verification flow.
 Conclusion
 Logic equivalence checking is a vital step in the design flow, ensuring that the functional intent of the design is preserved across stages. By systematically running LEC at every transformation stage, designers can confidently move towards sign-off, knowing that the final implementation faithfully matches the original specification.
+
+
+![Screenshot 2024-12-14 120838](https://github.com/user-attachments/assets/3d24b3ef-ddd1-4869-8089-b6ecda557bd4)
+
+
+![Screenshot 2024-12-14 120858](https://github.com/user-attachments/assets/16befcef-29dc-4c90-99e4-a4372b11789f)
+
+
+![Screenshot 2024-12-14 120944](https://github.com/user-attachments/assets/31627131-a5ce-4144-8394-57b2e9b7d7b6)
+
+
+![Screenshot 2024-12-14 121014](https://github.com/user-attachments/assets/3dcb3993-f161-4f95-b416-0837840aa8d9)
+
+
+![Screenshot 2024-12-14 121152](https://github.com/user-attachments/assets/d669424d-d9c6-4283-83c1-7de22f55d687)
+
+
+![Screenshot 2024-12-14 121216](https://github.com/user-attachments/assets/452e6222-e0fe-4fe4-a4fb-68a3ba3831b3)
+
+
+
+Main References
+
+ • Rob Rutenbar “From Logic to Layout” 2013
+ • Synopsys University Courseware
+ • IDESA
+ • Adam Teman
+
+
+
+
+
+
 
 
 
