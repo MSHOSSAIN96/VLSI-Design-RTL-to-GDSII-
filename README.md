@@ -983,7 +983,7 @@ Here, an IP vendor delivers a library which is basically a set of files that des
 Each type of standard cell is usually provided with several drive strengths.
 
 Each Standard cell is going to have a different width which is going to be a different multiple of minimum width of the site. Cell width is going to multiple of site width but not same for each standard cell. 
-
+   
 Cell height is the distance between Vdd & ground. 
 
 Each type of standard cell is usually provided with several drive strengths. 
